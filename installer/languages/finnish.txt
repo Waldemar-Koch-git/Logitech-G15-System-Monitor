@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Windows x64 -mittaristo Logitech G15:n LCD-näytölle. Tämä ei ole Logitechin virallinen tuote.
+
+.NET sisältyy asennukseen. Fyysinen näyttö vaatii Logitech Gaming Software (LGS) -ohjelmiston ja LCD SDK:n x64-kirjaston LogitechLcd.dll. Sovellus etsii kirjastoa LGS-asennuksesta. Jos se puuttuu, laillisesti hankitun x64-kopion Logitech SDK:sta voi sijoittaa G15Dashboard.exe-tiedoston viereen. LGS, kirjasto ja ajurit eivät sisälly asennukseen eikä niitä asenneta automaattisesti. Ilman LCD-näyttöä esikatselu on käytettävissä.
+
+Jotkin anturit vaativat PawnIO:n ja järjestelmänvalvojan oikeudet. Puuttuvat arvot näytetään merkinnällä --; ilman kelvollista FPS-arvoa sekä luku että FPS-teksti piilotetaan.
+
+Sovellus asennetaan Program Files -kansioon. Ajastettu tehtävä mahdollistaa käynnistyksen korotetuin oikeuksin ilman toistuvia UAC-kyselyjä. Se koskee asennuksen suorittavaa järjestelmänvalvojan tiliä myös silloin, kun annetaan toisen järjestelmänvalvojan tunnukset. Automaattinen käynnistys on valinnainen ja oletuksena pois käytöstä. Muut tilit voivat käynnistää EXE-tiedoston suoraan ja vahvistaa oikeuksien korotuksen.
+
+Työpöydän pikakuvakkeen nimi on G15 System Monitor (asennettu). Kun kieli vaihdetaan ja pikakuvake luodaan, asennuksen toisella kielellä oleva pikakuvake korvataan. Kehitysversioiden pikakuvakkeet säilytetään. Sulje vanhemmat versiot ilmaisinalueelta ennen käynnistämistä.
+
+Päivitä suorittamalla asennus uudelleen; aiemmat tehtävävalinnat käytetään uudelleen. Asennuksen poistaminen Windowsista poistaa asennetut tiedostot, pikakuvakkeet ja oman tehtävän. Käyttäjätiedot, LGS, PawnIO ja käsin lisätyt tiedostot säilytetään.
+
+Asennuksen ja asennuksen poistamisen kielen voi valita; englanti on esivalittuna. Sovelluksen käyttöliittymä on edelleen saksankielinen. Nämä tiedot asennetaan myös Setup\Languages-kansioon.
+
+Asennusohjelmaa ei ole allekirjoitettu. Kaikilla tuetuilla Intel-, AMD- ja NVIDIA-laitteilla ei ole tehty yleisiä laitteistotestejä. Lisenssit ja lähdekoodiviitteet: licenses-kansio.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

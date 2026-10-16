@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Dashboard Windows x64 per lo schermo LCD Logitech G15. Non è un prodotto ufficiale Logitech.
+
+.NET è incluso. Lo schermo fisico richiede Logitech Gaming Software (LGS) e la libreria x64 LogitechLcd.dll dell'SDK LCD. L'applicazione la cerca nell'installazione di LGS. Se manca, è possibile copiare una versione x64 ottenuta legalmente dall'SDK Logitech accanto a G15Dashboard.exe. LGS, questa libreria e i driver non sono inclusi né installati automaticamente. Senza LCD è disponibile l'anteprima.
+
+Alcuni sensori richiedono PawnIO e i privilegi di amministratore. I valori mancanti sono indicati con --; in assenza di un valore FPS valido, il numero e la relativa etichetta vengono nascosti.
+
+L'applicazione viene installata in Program Files. Un'attività pianificata consente l'avvio con privilegi elevati senza richieste UAC ripetute. Si applica all'account amministratore che esegue l'installazione, anche quando si immettono le credenziali di un altro amministratore. L'avvio automatico è facoltativo e disattivato per impostazione predefinita. Gli altri account possono avviare direttamente l'EXE e confermare l'elevazione.
+
+Il collegamento sul desktop si chiama G15 System Monitor (installato). Cambiando lingua e creando il collegamento, viene sostituito quello dell'installazione nell'altra lingua. I collegamenti di sviluppo vengono conservati. Prima dell'avvio, chiudere le vecchie versioni dall'area di notifica.
+
+Per aggiornare, eseguire nuovamente l'installazione; vengono riprese le precedenti opzioni delle attività. La disinstallazione da Windows rimuove i file installati, i collegamenti e l'attività dedicata. Dati utente, LGS, PawnIO e file aggiunti manualmente vengono conservati.
+
+È possibile scegliere la lingua dell'installazione e della disinstallazione; l'inglese è preselezionato. L'interfaccia dell'applicazione rimane in tedesco. Queste informazioni vengono installate anche in Setup\Languages.
+
+Il programma di installazione non è firmato. Non sono stati eseguiti test hardware generali su tutti i dispositivi Intel, AMD e NVIDIA supportati. Licenze e riferimenti al codice sorgente: cartella licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

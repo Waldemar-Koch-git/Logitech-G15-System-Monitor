@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Standalone Windows x64 dashboard and LCD applet for the Logitech G15.
+This is not an official Logitech product.
+
+Setup includes the .NET runtime. The physical LCD requires Logitech Gaming Software (LGS) with the x64 LCD SDK library LogitechLcd.dll. The app searches for this library in the existing LGS installation. This Logitech library and hardware drivers are not bundled or installed automatically. If the library is missing there, a lawfully obtained x64 LogitechLcd.dll from the Logitech SDK can be copied next to G15Dashboard.exe.
+
+Some sensors require PawnIO and administrator privileges. Missing values appear as --. If no valid FPS value is available, both the FPS number and its label are hidden. Information and driver sources: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+Logitech SDK information: https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+
+The app is installed in Program Files. A dedicated scheduled task allows elevated startup without repeated UAC prompts for the installing administrator account. Autostart is optional and disabled by default. If you enter another administrator's credentials, the task applies to that other account. Other users can launch the executable directly and confirm the required privileges.
+
+The desktop shortcut is named G15 System Monitor (installed) in English or G15 System Monitor (installiert) in German to preserve an existing development shortcut. When creating a shortcut during an update in another language, setup replaces its own shortcut in the previous language. Please close older dashboard versions using their tray menus before starting the installed version.
+
+Updates: Run setup again to update the installation folder and reuse previous task selections. User data is not deleted. Uninstalling through Windows > Installed apps removes the files and shortcuts installed by setup and its dedicated scheduled task. LGS, PawnIO and manually added files are preserved.
+
+Setup offers English (selected by default), German, French, Spanish, Italian, Portuguese (Portugal), Dutch, Danish, Swedish, Norwegian (Bokmål), Finnish and Russian. You can also specify /LANG= followed by english, german, french, spanish, italian, portuguese, dutch, danish, swedish, norwegian, finnish or russian on the command line. This selection applies to setup and uninstallation; the app's existing interface remains in German. Information.txt and Hinweise.txt are installed for reference; additional translated notes are in Setup\Languages.
+
+Setup is not signed with a publisher certificate. General hardware testing across all supported Intel, AMD and NVIDIA devices has not been performed.
+
+Third-party components, licenses and source references: see the licenses subfolder. Installer built with Inno Setup (https://jrsoftware.org).

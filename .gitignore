@@ -1,0 +1,21 @@
+# .NET and IDE output
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Generated setup files, compiler cache and local verification results
+/dist/
+/tools/installer-cache/
+*.log
+*.dmp
+
+# Local proprietary SDK; not part of the public source package
+/LCD-SDK/
+
+# Python cache for optional icon generation
+__pycache__/
+*.pyc

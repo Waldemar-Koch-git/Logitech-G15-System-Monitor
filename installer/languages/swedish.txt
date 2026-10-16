@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Windows x64-instrumentpanel för LCD-skärmen på Logitech G15. Detta är inte en officiell Logitech-produkt.
+
+.NET ingår. Den fysiska skärmen kräver Logitech Gaming Software (LGS) med x64-biblioteket LogitechLcd.dll från LCD SDK. Appen söker efter biblioteket i LGS-installationen. Om det saknas kan en lagligt anskaffad x64-kopia från Logitech SDK placeras bredvid G15Dashboard.exe. LGS, biblioteket och drivrutiner medföljer inte och installeras inte automatiskt. Utan LCD är förhandsvisningen tillgänglig.
+
+Vissa sensorer kräver PawnIO och administratörsbehörighet. Saknade värden visas som --; utan ett giltigt FPS-värde döljs både talet och texten FPS.
+
+Appen installeras i Program Files. En schemalagd uppgift möjliggör start med förhöjd behörighet utan upprepade UAC-frågor. Den gäller för administratörskontot som utför installationen, även om en annan administratörs inloggningsuppgifter anges. Autostart är valfri och inaktiverad som standard. Andra konton kan starta EXE-filen direkt och bekräfta behörigheten.
+
+Skrivbordsgenvägen heter G15 System Monitor (installerat). Vid språkbyte med skapande av en genväg ersätts installationens genväg på det andra språket. Utvecklingsgenvägar bevaras. Stäng äldre versioner via meddelandefältet före start.
+
+Kör installationen igen för att uppdatera; tidigare uppgiftsval återanvänds. Avinstallation via Windows tar bort installerade filer, genvägar och den egna uppgiften. Användardata, LGS, PawnIO och manuellt tillagda filer bevaras.
+
+Språket för installation och avinstallation kan väljas; engelska är förvalt. Appens gränssnitt är fortfarande på tyska. Denna information installeras även i Setup\Languages.
+
+Installationsprogrammet är inte signerat. Inga allmänna hårdvarutester har utförts på alla Intel-, AMD- och NVIDIA-enheter som stöds. Licenser och källkodshänvisningar: mappen licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

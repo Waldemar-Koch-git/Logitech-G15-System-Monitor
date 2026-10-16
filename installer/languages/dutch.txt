@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Windows x64-dashboard voor het LCD-scherm van de Logitech G15. Dit is geen officieel Logitech-product.
+
+.NET is inbegrepen. Het fysieke scherm vereist Logitech Gaming Software (LGS) met de x64-bibliotheek LogitechLcd.dll uit de LCD SDK. De app zoekt deze in de LGS-installatie. Als deze ontbreekt, kunt u een legaal verkregen x64-versie uit de Logitech SDK naast G15Dashboard.exe plaatsen. LGS, deze bibliotheek en stuurprogramma's worden niet meegeleverd of automatisch geïnstalleerd. Zonder LCD is het voorbeeld beschikbaar.
+
+Sommige sensoren vereisen PawnIO en beheerdersrechten. Ontbrekende waarden verschijnen als --; zonder geldige FPS-waarde worden zowel het getal als het label verborgen.
+
+De app wordt geïnstalleerd in Program Files. Een geplande taak maakt starten met verhoogde rechten mogelijk zonder herhaalde UAC-meldingen. Deze geldt voor het beheerdersaccount dat de installatie uitvoert, ook als u de gegevens van een andere beheerder invoert. Automatisch starten is optioneel en standaard uitgeschakeld. Andere accounts kunnen het EXE-bestand rechtstreeks starten en de verhoging bevestigen.
+
+De bureaubladsnelkoppeling heet G15 System Monitor (geïnstalleerd). Als u van taal wisselt en een snelkoppeling maakt, wordt de snelkoppeling van de installatie in de andere taal vervangen. Ontwikkelsnelkoppelingen blijven behouden. Sluit oudere versies via het systeemvak voordat u de app start.
+
+Voer de installatie opnieuw uit om bij te werken; de eerdere taakkeuzes worden hergebruikt. Verwijderen via Windows verwijdert de geïnstalleerde bestanden, snelkoppelingen en eigen taak. Gebruikersgegevens, LGS, PawnIO en handmatig toegevoegde bestanden blijven behouden.
+
+De taal van installatie en verwijdering is instelbaar; Engels is voorgeselecteerd. De interface van de app blijft Duits. Deze informatie wordt ook geïnstalleerd in Setup\Languages.
+
+Het installatieprogramma is niet ondertekend. Er zijn geen algemene hardwaretests uitgevoerd op alle ondersteunde Intel-, AMD- en NVIDIA-apparaten. Licenties en verwijzingen naar broncode: map licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

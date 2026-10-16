@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Windows x64-dashbord for LCD-skjermen på Logitech G15. Dette er ikke et offisielt Logitech-produkt.
+
+.NET er inkludert. Den fysiske skjermen krever Logitech Gaming Software (LGS) med x64-biblioteket LogitechLcd.dll fra LCD SDK. Appen søker etter biblioteket i LGS-installasjonen. Hvis det mangler, kan en lovlig anskaffet x64-kopi fra Logitech SDK plasseres ved siden av G15Dashboard.exe. LGS, biblioteket og drivere følger ikke med og installeres ikke automatisk. Uten LCD er forhåndsvisningen tilgjengelig.
+
+Noen sensorer krever PawnIO og administratorrettigheter. Manglende verdier vises som --; uten en gyldig FPS-verdi skjules både tallet og teksten FPS.
+
+Appen installeres i Program Files. En planlagt oppgave muliggjør oppstart med forhøyede rettigheter uten gjentatte UAC-forespørsler. Den gjelder for administratorkontoen som utfører installasjonen, også hvis påloggingsinformasjonen til en annen administrator oppgis. Automatisk oppstart er valgfritt og deaktivert som standard. Andre kontoer kan starte EXE-filen direkte og bekrefte rettighetene.
+
+Skrivebordssnarveien heter G15 System Monitor (installert). Ved språkbytte med oppretting av en snarvei erstattes installasjonens snarvei på det andre språket. Utviklingssnarveier beholdes. Lukk eldre versjoner via systemstatusfeltet før oppstart.
+
+Kjør installasjonen på nytt for å oppdatere; tidligere oppgavevalg gjenbrukes. Avinstallasjon via Windows fjerner installerte filer, snarveier og den tilhørende oppgaven. Brukerdata, LGS, PawnIO og manuelt tilføyde filer beholdes.
+
+Språket for installasjon og avinstallasjon kan velges; engelsk er forhåndsvalgt. Appens grensesnitt er fortsatt på tysk. Denne informasjonen installeres også i Setup\Languages.
+
+Installasjonsprogrammet er ikke signert. Det er ikke utført generelle maskinvaretester på alle støttede Intel-, AMD- og NVIDIA-enheter. Lisenser og kildekodehenvisninger: mappen licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Tableau de bord Windows x64 pour l'écran LCD Logitech G15. Ce logiciel n'est pas un produit officiel Logitech.
+
+.NET est inclus. L'écran physique nécessite Logitech Gaming Software (LGS) avec la bibliothèque x64 LogitechLcd.dll du SDK LCD. L'application la recherche dans l'installation LGS. Si elle manque, une copie x64 obtenue légalement du SDK Logitech peut être placée à côté de G15Dashboard.exe. LGS, cette bibliothèque et les pilotes ne sont pas fournis ni installés automatiquement. Sans LCD, l'aperçu reste disponible.
+
+Certains capteurs nécessitent PawnIO et les droits d'administrateur. Les valeurs absentes sont indiquées par -- ; sans valeur FPS valide, le nombre et son libellé sont masqués.
+
+L'application est installée dans Program Files. Une tâche planifiée permet le démarrage avec élévation sans demandes UAC répétées. Elle s'applique au compte administrateur qui effectue l'installation, y compris si vous saisissez les identifiants d'un autre administrateur. Le démarrage automatique est facultatif et désactivé par défaut. Les autres comptes peuvent lancer directement le fichier EXE et confirmer l'élévation.
+
+Le raccourci du Bureau porte le nom G15 System Monitor (installé). Lors d'un changement de langue avec création du raccourci, celui de l'installation dans l'autre langue est remplacé. Les raccourcis de développement sont conservés. Fermez les anciennes versions depuis la zone de notification avant le démarrage.
+
+Pour mettre à jour, relancez l'installation ; les choix de tâches précédents sont repris. La désinstallation via Windows supprime les fichiers installés, les raccourcis et la tâche dédiée. Les données utilisateur, LGS, PawnIO et les fichiers ajoutés manuellement sont conservés.
+
+La langue de l'installation et de la désinstallation est sélectionnable ; l'anglais est présélectionné. L'interface de l'application reste en allemand. Cette notice est aussi installée dans Setup\Languages.
+
+L'installation n'est pas signée. Aucun test matériel général sur tous les appareils Intel, AMD et NVIDIA pris en charge n'a été effectué. Licences et références du code source : dossier licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

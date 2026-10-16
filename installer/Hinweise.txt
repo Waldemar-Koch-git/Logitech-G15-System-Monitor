@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Eigenständiges Windows-x64-Dashboard als LCD-Applet für die Logitech G15.
+Kein offizielles Logitech-Produkt.
+
+Das Setup enthält die .NET-Laufzeit. Für das physische LCD benötigen Sie Logitech Gaming Software (LGS) mit der x64-LCD-SDK-Bibliothek LogitechLcd.dll. Die App sucht die Bibliothek in der vorhandenen LGS-Installation. Diese Logitech-Bibliothek und Hardwaretreiber werden nicht mitverteilt oder automatisch installiert. Wenn die Bibliothek dort fehlt, kann eine rechtmäßig vorhandene x64-LogitechLcd.dll aus dem Logitech-SDK neben G15Dashboard.exe kopiert werden.
+
+Bestimmte Sensoren benötigen PawnIO und Administratorrechte. Fehlende Werte erscheinen als --. Ohne gültigen FPS-Wert bleiben sowohl die FPS-Zahl als auch ihre Beschriftung ausgeblendet. Informationen und Treiberquellen: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+Logitech-SDK-Informationen: https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+
+Das Programm wird unter Programme installiert. Eine eigene Startaufgabe ermöglicht den erhöhten Start ohne wiederholte UAC-Abfrage für das installierende Administratorkonto. Autostart ist optional und standardmäßig ausgeschaltet. Bei Eingabe der Zugangsdaten eines anderen Administrators gilt die Startaufgabe für dieses andere Konto. Andere Benutzer können die EXE direkt starten und die erforderlichen Rechte bestätigen.
+
+Die Desktop-Verknüpfung heißt auf Deutsch G15 System Monitor (installiert), auf Englisch G15 System Monitor (installed), damit eine vorhandene Entwicklungs-Verknüpfung erhalten bleibt. Beim Erstellen einer Verknüpfung während eines Updates in anderer Sprache ersetzt das Setup die eigene Verknüpfung in der bisherigen Sprache. Bitte alte Dashboard-Ausgaben über ihr Tray-Menü beenden, bevor die installierte Ausgabe gestartet wird.
+
+Updates: Ein neueres Setup derselben Anwendung aktualisiert den Installationsordner und übernimmt die vorherige Aufgaben-Auswahl. Benutzerdaten werden nicht gelöscht. Deinstallation über Windows > Installierte Apps entfernt die vom Setup installierten Dateien, Verknüpfungen und die eigene Startaufgabe. LGS, PawnIO und manuell hinzugefügte Dateien bleiben erhalten.
+
+Das Setup bietet Englisch (vorausgewählt), Deutsch, Französisch, Spanisch, Italienisch, Portugiesisch (Portugal), Niederländisch, Dänisch, Schwedisch, Norwegisch (Bokmål), Finnisch und Russisch. Über die Befehlszeile sind auch /LANG= mit english, german, french, spanish, italian, portuguese, dutch, danish, swedish, norwegian, finnish oder russian möglich. Diese Auswahl gilt für Setup und Deinstallation; die bisherige App-Oberfläche bleibt deutsch. Information.txt und Hinweise.txt werden beide zum Nachlesen installiert, weitere übersetzte Hinweise unter Setup\Languages.
+
+Das Setup ist nicht mit einem Herausgeberzertifikat signiert. Ein allgemeiner Hardwaretest für alle unterstützten Intel-, AMD- und NVIDIA-Geräte ist nicht erfolgt.
+
+Fremdkomponenten, Lizenzen und Quellcode-Verweise: Unterordner licenses. Installer erstellt mit Inno Setup (https://jrsoftware.org).

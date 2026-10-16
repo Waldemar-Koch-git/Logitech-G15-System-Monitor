@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Painel Windows x64 para o ecrã LCD Logitech G15. Não é um produto oficial da Logitech.
+
+O .NET está incluído. O ecrã físico requer o Logitech Gaming Software (LGS) e a biblioteca x64 LogitechLcd.dll do SDK LCD. A aplicação procura-a na instalação do LGS. Se faltar, pode copiar uma versão x64 obtida legalmente do SDK da Logitech para junto de G15Dashboard.exe. O LGS, esta biblioteca e os controladores não são incluídos nem instalados automaticamente. Sem LCD, está disponível a pré-visualização.
+
+Alguns sensores requerem o PawnIO e privilégios de administrador. Os valores em falta são apresentados como --; sem um valor FPS válido, o número e a respetiva legenda ficam ocultos.
+
+A aplicação é instalada em Program Files. Uma tarefa agendada permite o arranque com privilégios elevados sem pedidos UAC repetidos. Aplica-se à conta de administrador que efetua a instalação, incluindo quando introduz as credenciais de outro administrador. O arranque automático é opcional e está desativado por predefinição. As outras contas podem iniciar diretamente o EXE e confirmar a elevação.
+
+O atalho no ambiente de trabalho chama-se G15 System Monitor (instalado). Ao mudar de idioma e criar o atalho, é substituído o atalho da instalação no outro idioma. Os atalhos de desenvolvimento são preservados. Feche as versões antigas através da área de notificação antes de iniciar.
+
+Para atualizar, execute novamente a instalação; as opções anteriores das tarefas são reutilizadas. A desinstalação através do Windows remove os ficheiros instalados, os atalhos e a tarefa dedicada. Os dados do utilizador, o LGS, o PawnIO e os ficheiros adicionados manualmente são preservados.
+
+Pode escolher o idioma da instalação e da desinstalação; o inglês está pré-selecionado. A interface da aplicação continua em alemão. Estas informações também são instaladas em Setup\Languages.
+
+O instalador não está assinado. Não foram efetuados testes gerais de hardware em todos os dispositivos Intel, AMD e NVIDIA suportados. Licenças e referências ao código-fonte: pasta licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

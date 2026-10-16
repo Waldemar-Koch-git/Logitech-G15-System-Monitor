@@ -1,0 +1,21 @@
+G15 System Monitor 1.0.0
+
+Panel de Windows x64 para la pantalla LCD de Logitech G15. No es un producto oficial de Logitech.
+
+.NET está incluido. La pantalla física requiere Logitech Gaming Software (LGS) y la biblioteca x64 LogitechLcd.dll del SDK LCD. La aplicación la busca en la instalación de LGS. Si falta, puede copiar una versión x64 obtenida legalmente del SDK de Logitech junto a G15Dashboard.exe. LGS, esta biblioteca y los controladores no se incluyen ni se instalan automáticamente. Sin LCD está disponible la vista previa.
+
+Algunos sensores requieren PawnIO y permisos de administrador. Los valores no disponibles se muestran como --; sin un valor FPS válido se ocultan tanto el número como su etiqueta.
+
+La aplicación se instala en Program Files. Una tarea programada permite el inicio con permisos elevados sin solicitudes UAC repetidas. Se aplica a la cuenta de administrador que realiza la instalación, también si introduce las credenciales de otro administrador. El inicio automático es opcional y está desactivado por defecto. Las demás cuentas pueden iniciar el EXE directamente y confirmar la elevación.
+
+El acceso directo del escritorio se llama G15 System Monitor (instalado). Al cambiar de idioma y crear el acceso directo, se reemplaza el de la instalación en el otro idioma. Se conservan los accesos directos de desarrollo. Cierre las versiones antiguas desde el área de notificación antes de iniciar la aplicación.
+
+Para actualizar, ejecute de nuevo el instalador; se reutilizan las opciones anteriores de tareas. La desinstalación desde Windows elimina los archivos instalados, los accesos directos y la tarea propia. Se conservan los datos del usuario, LGS, PawnIO y los archivos añadidos manualmente.
+
+Se puede elegir el idioma de instalación y desinstalación; el inglés está preseleccionado. La interfaz de la aplicación sigue en alemán. Estas notas también se instalan en Setup\Languages.
+
+El instalador no está firmado. No se han realizado pruebas generales de hardware en todos los dispositivos Intel, AMD y NVIDIA compatibles. Licencias y referencias al código fuente: carpeta licenses.
+
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+https://support.logi.com/hc/en-150/articles/360023399493-Making-LCD-applets
+https://jrsoftware.org

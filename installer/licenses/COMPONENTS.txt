@@ -1,0 +1,60 @@
+Unmodified third-party components and package graph (including platform variants not bundled). Licenses and source repositories according to NuGet metadata:
+BlackSharp.Core/1.0.7: MPL-2.0 https://licenses.nuget.org/MPL-2.0
+Source: https://github.com/Blacktempel/BlackSharp commit c70b735c6cec123ee8a046ac4a0bc6c606f52cf0
+DiskInfoToolkit/1.1.2: MPL-2.0 https://licenses.nuget.org/MPL-2.0
+Source: https://github.com/Blacktempel/DiskInfoToolkit commit 25319eae5781e75bcf141e844ceab2afe94d40ea
+HidSharp/2.6.4: LICENSE.txt https://aka.ms/deprecateLicenseUrl
+Project/source: https://software.seekye.com/hidsharp
+LibreHardwareMonitorLib/0.9.6: MPL-2.0 https://licenses.nuget.org/MPL-2.0
+Source: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor commit 3d331e3370efb858411f19511373eff65a218701
+Mono.Posix.NETStandard/1.0.0:  https://go.microsoft.com/fwlink/?linkid=869050
+Project/source: https://go.microsoft.com/fwlink/?linkid=869051
+RAMSPDToolkit-NDD/1.4.2: MPL-2.0 https://licenses.nuget.org/MPL-2.0
+Source: https://github.com/Blacktempel/RAMSPDToolkit commit 3b47b960e0830fef344624ad5e389675d5f0a1ce
+runtime.android-arm.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.android-arm64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.android-x64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.android-x86.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-arm.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-arm64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-bionic-arm64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-bionic-x64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-musl-arm.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-musl-arm64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-musl-x64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.linux-x64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.maccatalyst-arm64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.maccatalyst-x64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.osx-arm64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+runtime.osx-x64.runtime.native.System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+System.CodeDom/10.0.2: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit 44525024595742ebe09023abe709df51de65009b
+System.IO.Ports/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+System.Management/10.0.2: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit 44525024595742ebe09023abe709df51de65009b
+System.Threading.AccessControl/10.0.3: MIT https://licenses.nuget.org/MIT
+Source: https://github.com/dotnet/dotnet commit c2435c3e0f46de784341ac3ed62863ce77e117b4
+Bundled runtime: Microsoft.NETCore.App 8.0.31; source https://github.com/dotnet
+Bundled runtime: Microsoft.WindowsDesktop.App 8.0.31; source https://github.com/dotnet
+LibreHardwareMonitorLib source: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/tree/3d331e3370efb858411f19511373eff65a218701
+PresentMon 2.6.0 source: https://github.com/GameTechDev/PresentMon/tree/v2.6.0
+LogitechLcd.dll is not redistributed in this installer; the existing Logitech installation supplies it.
