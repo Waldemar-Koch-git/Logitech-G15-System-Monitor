@@ -1,4 +1,5 @@
-> Hint: Made with AI! `ChatGPT 6.1 SOL High`
+> Hint: This App was made with AI! `ChatGPT 6.1 SOL High`
+
 ![Preview](./assets/Logitech%20G15%20LCD-Display.png)
 
 # Logitech G15 System Monitor
