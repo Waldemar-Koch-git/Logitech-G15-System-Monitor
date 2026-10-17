@@ -1,9 +1,10 @@
 > Hint: Made with AI! `ChatGPT 6.1 SOL High`
+![Preview](./assets/Logitech%20G15%20LCD-Display.png)
 
 # Logitech G15 System Monitor
 
 ![Application icon](assets/G15SystemMonitor.png)
-![Preview](./assets/Logitech%20G15%20LCD-Display.png)
+
 
 
 A Windows x64 dashboard for the monochrome **160 × 43 Logitech G15 LCD**. Shows date, time, CPU/GPU usage and temperatures, RAM/VRAM usage, and FPS for the foreground application. Updates once per second and provides a four-times-size preview when no LCD is available.
